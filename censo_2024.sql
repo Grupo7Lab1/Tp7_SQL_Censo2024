@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 23-09-2026 a las 01:55:13
+-- Tiempo de generación: 25-09-2026 a las 02:53:51
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -44,7 +44,9 @@ CREATE TABLE `habitante` (
 
 INSERT INTO `habitante` (`NRO_HABIT`, `PROVINCIA`, `EDAD`, `NIVEL EDUCATIVO ALCANZADO`, `¿USA COMPUTADORAS?`, `¿TRABAJA?`) VALUES
 (1, 'Chaco', 18, 'Secundario', 0, 1),
-(2, 'Neuquén', 35, 'Ninguno', 0, 1);
+(2, 'Neuquén', 35, 'Ninguno', 0, 1),
+(3, 'Mendoza', 70, 'Primario', 1, 0),
+(4, 'Cordoba', 73, 'Secundario', 1, 0);
 
 --
 -- Índices para tablas volcadas
@@ -64,7 +66,7 @@ ALTER TABLE `habitante`
 -- AUTO_INCREMENT de la tabla `habitante`
 --
 ALTER TABLE `habitante`
-  MODIFY `NRO_HABIT` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `NRO_HABIT` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
